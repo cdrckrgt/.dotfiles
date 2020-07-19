@@ -6,8 +6,8 @@ yabai -m config focus_follows_mouse          off
 yabai -m config window_placement             second_child
 yabai -m config window_topmost               off
 yabai -m config window_opacity               off
-yabai -m config window_shadow                on
-yabai -m config window_border                on
+yabai -m config window_shadow                off
+yabai -m config window_border                off
 yabai -m config window_border_width          2
 yabai -m config active_window_border_color   0xffff5151
 yabai -m config normal_window_border_color   0xff40c4fe
@@ -22,7 +22,7 @@ yabai -m config mouse_action2                resize
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  37
+yabai -m config top_padding                  40
 yabai -m config bottom_padding               5
 yabai -m config left_padding                 10
 yabai -m config right_padding                10

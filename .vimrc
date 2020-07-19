@@ -32,6 +32,13 @@ set backspace=indent,eol,start
 set scrolloff=5
 set background=dark
 
+" statusline (lightline)
+set laststatus=2
+let g:lightline = {
+      \ 'colorscheme': 'nord',
+      \ }
+
+
 " file specific options
 autocmd FileType make set noexpandtab
 autocmd Filetype tex set colorcolumn=

@@ -9,11 +9,13 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # for managing dotfiles
 alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+# better copy, move, mkdir
 alias cp='cp -iv'
 alias mv='mv -iv'
 alias mkdir='mkdir -pv'
 alias c='clear'
 alias tmux="tmux -2"
+# colors and better list
 alias ls='ls -G'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
