@@ -26,7 +26,7 @@ yabai -m config mouse_action2                resize
 
 # general space settings
 yabai -m config layout                       bsp
-yabai -m config top_padding                  40
+yabai -m config top_padding                  20
 yabai -m config bottom_padding               5
 yabai -m config left_padding                 10
 yabai -m config right_padding                10
@@ -53,5 +53,13 @@ yabai -m rule --add app="Zoom"                 manage=off border=off
 yabai -m rule --add app="Discord"              manage=off border=off
 yabai -m rule --add app="Music"                manage=off border=off
 yabai -m rule --add app="zoom.us"              manage=off border=off
+yabai -m rule --add app="^Riot Client$"        manage=off border=off
+yabai -m rule --add app="^League Client$"      manage=off border=off
+yabai -m rule --add app="RiotClient"           manage=off border=off
+yabai -m rule --add app="LeagueClient"         manage=off border=off
+yabai -m rule --add app="^League of Legends$"  manage=off border=off
+yabai -m rule --add app="LeagueofLegends"      manage=off border=off
+yabai -m rule --add app="Luminar 4"            manage=off border=off
+yabai -m rule --add app="^Luminar 4$"          manage=off border=off
 
 echo "yabai configuration loaded.."
