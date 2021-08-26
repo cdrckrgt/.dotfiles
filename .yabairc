@@ -53,13 +53,16 @@ yabai -m rule --add app="Zoom"                 manage=off border=off
 yabai -m rule --add app="Discord"              manage=off border=off
 yabai -m rule --add app="Music"                manage=off border=off
 yabai -m rule --add app="zoom.us"              manage=off border=off
-yabai -m rule --add app="^Riot Client$"        manage=off border=off
-yabai -m rule --add app="^League Client$"      manage=off border=off
-yabai -m rule --add app="RiotClient"           manage=off border=off
-yabai -m rule --add app="LeagueClient"         manage=off border=off
-yabai -m rule --add app="^League of Legends$"  manage=off border=off
-yabai -m rule --add app="LeagueofLegends"      manage=off border=off
-yabai -m rule --add app="Luminar 4"            manage=off border=off
-yabai -m rule --add app="^Luminar 4$"          manage=off border=off
+yabai -m rule --add app="Zotero"               manage=off border=off
+yabai -m rule --add app="Final Cut Pro Trial"  manage=off border=off
+yabai -m rule --add app="^factorio$"           manage=off border=off
+# yabai -m rule --add app="^Riot Client$"        manage=off border=off
+# yabai -m rule --add app="^League Client$"      manage=off border=off
+# yabai -m rule --add app="RiotClient"           manage=off border=off
+# yabai -m rule --add app="LeagueClient"         manage=off border=off
+# yabai -m rule --add app="^League of Legends$"  manage=off border=off
+# yabai -m rule --add app="LeagueofLegends"      manage=off border=off
+# yabai -m rule --add app="^siril$"              manage=off border=off
+# yabai -m rule --add app="^siril"               manage=off border=off
 
 echo "yabai configuration loaded.."
