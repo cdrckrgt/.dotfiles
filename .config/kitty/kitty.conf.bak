@@ -66,8 +66,10 @@ map ctrl+down resize_window shorter
 ################
 
 background_opacity 1.0
+
 selection_foreground #434c5e
 selection_background #5381ac
+
 background #2e3440
 foreground #d8dee9
 
@@ -76,6 +78,7 @@ foreground #d8dee9
 
 # whereas this is for retina displays
 macos_titlebar_color #2e3440
+
 color0 #3b4252
 color1 #bf616a
 color2 #a3be8c
@@ -84,6 +87,7 @@ color4 #81a1c1
 color5 #b48ead
 color6 #88c0d0
 color7 #e5e9f0
+
 color8 #4c566a
 color9 #bf616a
 color10 #a3be8c
@@ -100,9 +104,3 @@ color15 #eceff4
 macos_quit_when_last_window_closed yes
 hide_window_decorations no
 macos_show_window_title_in none
-
-
-# BEGIN_KITTY_THEME
-# Github
-include current-theme.conf
-# END_KITTY_THEME
