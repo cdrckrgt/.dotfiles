@@ -25,9 +25,6 @@ alias egrep='egrep --color=auto'
 # export PROMPT_COMMAND='echo -ne "\033]0;\007"'
 export PS1='\[\e[35m\]\u\[\e[0m\]@\[\e[32m\]\h\[\e[0m\]:\[\e[34m\]\w\[\e[0m\]$ '
 
-
-
-
 # ignore repeats in history commands and commands starting with space
 export HISTCONTROL=$HISTCONTROL:ignoreboth
 

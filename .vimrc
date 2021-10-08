@@ -1,9 +1,8 @@
 " making tabs work the way i want
 set tabstop=4
-set softtabstop=0
-set expandtab
+set softtabstop=4
 set shiftwidth=4
-set smarttab
+set expandtab
 
 " self explanatory
 syntax enable
@@ -46,3 +45,5 @@ autocmd Filetype tex set colorcolumn=
 noremap <F2> :bp<CR>
 noremap <F3> :bn<CR>
 nmap <F1> <nop>
+
+set makeprg=pylint\ --output-format=text\ --rcfile=~/.pylintrc\ --msg-template="{path}:{line}:{column}:{C}: [{symbol}] {msg}"\ --reports=no
