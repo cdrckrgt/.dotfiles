@@ -31,16 +31,16 @@ set backspace=indent,eol,start
 set scrolloff=5
 set background=dark
 
-" statusline (lightline)
+" statusline lightline
 set laststatus=2
-let g:lightline = {
-      \ 'colorscheme': 'nord',
-      \ }
+let g:lightline = {'colorscheme': 'nord'}
 
 
 " file specific options
 autocmd FileType make set noexpandtab
-autocmd Filetype tex set colorcolumn=
+autocmd FileType tex set colorcolumn=
+au BufRead,BufNewFile *.wppl set filetype=javascript
+autocmd FileType wppl set syntax=javascript
 
 noremap <F2> :bp<CR>
 noremap <F3> :bn<CR>
